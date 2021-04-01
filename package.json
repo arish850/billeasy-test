@@ -1,6 +1,9 @@
 {
   "name": "billeasy-test",
   "version": "0.0.0",
+  "engines": {
+    "node": "14.16.0"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -11,8 +14,5 @@
     "express": "~4.16.1",
     "morgan": "~1.9.1",
     "pg": "^8.5.1"
-  },
-  "engines": {
-    "node": "14.16.0"
   }
 }
